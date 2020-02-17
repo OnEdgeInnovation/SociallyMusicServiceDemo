@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9214AD5D23F61DDD00CFBF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214AD5C23F61DDD00CFBF08 /* AppDelegate.swift */; };
 		9214AD5F23F61DDD00CFBF08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214AD5E23F61DDD00CFBF08 /* SceneDelegate.swift */; };
-		9214AD6123F61DDD00CFBF08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214AD6023F61DDD00CFBF08 /* ContentView.swift */; };
 		9214AD6323F61DE000CFBF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9214AD6223F61DE000CFBF08 /* Assets.xcassets */; };
 		9214AD6623F61DE000CFBF08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9214AD6523F61DE000CFBF08 /* Preview Assets.xcassets */; };
 		9214AD6923F61DE000CFBF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9214AD6723F61DE000CFBF08 /* LaunchScreen.storyboard */; };
+		929E26E523F7B16700267CF5 /* SociallyMusicService in Frameworks */ = {isa = PBXBuildFile; productRef = 929E26E423F7B16700267CF5 /* SociallyMusicService */; };
+		929E26E723F9CEE300267CF5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E26E623F9CEE300267CF5 /* MainTabView.swift */; };
+		929E26E923F9D01200267CF5 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E26E823F9D01200267CF5 /* PlaylistView.swift */; };
+		929E26EB23F9D01F00267CF5 /* TopTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E26EA23F9D01F00267CF5 /* TopTrackView.swift */; };
+		929E26ED23F9D03500267CF5 /* TopArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E26EC23F9D03500267CF5 /* TopArtistView.swift */; };
+		929E26EF23F9D0E400267CF5 /* CurrentlyPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E26EE23F9D0E400267CF5 /* CurrentlyPlayingView.swift */; };
+		929E26F623F9D99200267CF5 /* ImageWithActivityIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = 929E26F523F9D99200267CF5 /* ImageWithActivityIndicator */; };
+		929E26FA23FA467800267CF5 /* RecentlyPlayedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E26F923FA467800267CF5 /* RecentlyPlayedView.swift */; };
+		929E26FC23FAE79A00267CF5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E26FB23FAE79A00267CF5 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9214AD5923F61DDD00CFBF08 /* SociallyMusicServiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SociallyMusicServiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9214AD5C23F61DDD00CFBF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9214AD5E23F61DDD00CFBF08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9214AD6023F61DDD00CFBF08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9214AD6223F61DE000CFBF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9214AD6523F61DE000CFBF08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9214AD6823F61DE000CFBF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9214AD6A23F61DE000CFBF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929E26E623F9CEE300267CF5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		929E26E823F9D01200267CF5 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		929E26EA23F9D01F00267CF5 /* TopTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTrackView.swift; sourceTree = "<group>"; };
+		929E26EC23F9D03500267CF5 /* TopArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtistView.swift; sourceTree = "<group>"; };
+		929E26EE23F9D0E400267CF5 /* CurrentlyPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentlyPlayingView.swift; sourceTree = "<group>"; };
+		929E26F923FA467800267CF5 /* RecentlyPlayedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedView.swift; sourceTree = "<group>"; };
+		929E26FB23FAE79A00267CF5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929E26E523F7B16700267CF5 /* SociallyMusicService in Frameworks */,
+				929E26F623F9D99200267CF5 /* ImageWithActivityIndicator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +74,17 @@
 			children = (
 				9214AD5C23F61DDD00CFBF08 /* AppDelegate.swift */,
 				9214AD5E23F61DDD00CFBF08 /* SceneDelegate.swift */,
-				9214AD6023F61DDD00CFBF08 /* ContentView.swift */,
 				9214AD6223F61DE000CFBF08 /* Assets.xcassets */,
 				9214AD6723F61DE000CFBF08 /* LaunchScreen.storyboard */,
 				9214AD6A23F61DE000CFBF08 /* Info.plist */,
 				9214AD6423F61DE000CFBF08 /* Preview Content */,
+				929E26FB23FAE79A00267CF5 /* Constants.swift */,
+				929E26EE23F9D0E400267CF5 /* CurrentlyPlayingView.swift */,
+				929E26E623F9CEE300267CF5 /* MainTabView.swift */,
+				929E26E823F9D01200267CF5 /* PlaylistView.swift */,
+				929E26F923FA467800267CF5 /* RecentlyPlayedView.swift */,
+				929E26EA23F9D01F00267CF5 /* TopTrackView.swift */,
+				929E26EC23F9D03500267CF5 /* TopArtistView.swift */,
 			);
 			path = SociallyMusicServiceDemo;
 			sourceTree = "<group>";
@@ -91,6 +113,10 @@
 			dependencies = (
 			);
 			name = SociallyMusicServiceDemo;
+			packageProductDependencies = (
+				929E26E423F7B16700267CF5 /* SociallyMusicService */,
+				929E26F523F9D99200267CF5 /* ImageWithActivityIndicator */,
+			);
 			productName = SociallyMusicServiceDemo;
 			productReference = 9214AD5923F61DDD00CFBF08 /* SociallyMusicServiceDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +145,10 @@
 				Base,
 			);
 			mainGroup = 9214AD5023F61DDD00CFBF08;
+			packageReferences = (
+				929E26E323F7B16700267CF5 /* XCRemoteSwiftPackageReference "SociallyMusicService" */,
+				929E26F423F9D99200267CF5 /* XCRemoteSwiftPackageReference "ImageWithActivityIndicator" */,
+			);
 			productRefGroup = 9214AD5A23F61DDD00CFBF08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929E26EB23F9D01F00267CF5 /* TopTrackView.swift in Sources */,
 				9214AD5D23F61DDD00CFBF08 /* AppDelegate.swift in Sources */,
 				9214AD5F23F61DDD00CFBF08 /* SceneDelegate.swift in Sources */,
-				9214AD6123F61DDD00CFBF08 /* ContentView.swift in Sources */,
+				929E26FA23FA467800267CF5 /* RecentlyPlayedView.swift in Sources */,
+				929E26E723F9CEE300267CF5 /* MainTabView.swift in Sources */,
+				929E26E923F9D01200267CF5 /* PlaylistView.swift in Sources */,
+				929E26EF23F9D0E400267CF5 /* CurrentlyPlayingView.swift in Sources */,
+				929E26ED23F9D03500267CF5 /* TopArtistView.swift in Sources */,
+				929E26FC23FAE79A00267CF5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +325,7 @@
 				DEVELOPMENT_TEAM = RHQR56U62Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SociallyMusicServiceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +346,7 @@
 				DEVELOPMENT_TEAM = RHQR56U62Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SociallyMusicServiceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +380,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		929E26E323F7B16700267CF5 /* XCRemoteSwiftPackageReference "SociallyMusicService" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OnEdgeInnovation/SociallyMusicService.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		929E26F423F9D99200267CF5 /* XCRemoteSwiftPackageReference "ImageWithActivityIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliAdam/ImageWithActivityIndicator.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		929E26E423F7B16700267CF5 /* SociallyMusicService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 929E26E323F7B16700267CF5 /* XCRemoteSwiftPackageReference "SociallyMusicService" */;
+			productName = SociallyMusicService;
+		};
+		929E26F523F9D99200267CF5 /* ImageWithActivityIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 929E26F423F9D99200267CF5 /* XCRemoteSwiftPackageReference "ImageWithActivityIndicator" */;
+			productName = ImageWithActivityIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9214AD5123F61DDD00CFBF08 /* Project object */;
 }
