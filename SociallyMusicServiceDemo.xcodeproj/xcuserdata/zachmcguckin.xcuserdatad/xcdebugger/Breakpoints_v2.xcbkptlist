@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "240C41FB-C6CC-427E-AE8B-72E6210687AE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9187A1C7-1873-4053-B5F1-BA278F44D02D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/SociallyMusicServiceDemo-edxemtwbxcexlpftvzzeuaatpxec/SourcePackages/checkouts/SociallyMusicService/Sources/SociallyMusicService/Services/SpotifyService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "fetchRecentlyPlayed(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9187A1C7-1873-4053-B5F1-BA278F44D02D - cb31ccb3ebe4c204"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SociallyMusicService.SociallyTrack, SociallyMusicService.APIServiceError&gt;) -&gt; () in closure #1 (Swift.Result&lt;SociallyMusicService.PagingObject&lt;SociallyMusicService.PlayHistoryObject&gt;, SociallyMusicService.APIServiceError&gt;) -&gt; () in SociallyMusicService.SpotifyService.fetchRecentlyPlayed(completion: (Swift.Result&lt;Swift.Array&lt;SociallyMusicService.SociallyTrack&gt;, SociallyMusicService.APIServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SociallyMusicServiceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zachmcguckin/Library/Developer/Xcode/DerivedData/SociallyMusicServiceDemo-edxemtwbxcexlpftvzzeuaatpxec/SourcePackages/checkouts/SociallyMusicService/Sources/SociallyMusicService/Services/SpotifyService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "9187A1C7-1873-4053-B5F1-BA278F44D02D - cb31ccb3ebe4c204"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SociallyMusicService.SociallyTrack, SociallyMusicService.APIServiceError&gt;) -&gt; () in closure #1 (Swift.Result&lt;SociallyMusicService.PagingObject&lt;SociallyMusicService.PlayHistoryObject&gt;, SociallyMusicService.APIServiceError&gt;) -&gt; () in SociallyMusicService.SpotifyService.fetchRecentlyPlayed(completion: (Swift.Result&lt;Swift.Array&lt;SociallyMusicService.SociallyTrack&gt;, SociallyMusicService.APIServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SociallyMusicServiceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zachmcguckin/Library/Developer/Xcode/DerivedData/SociallyMusicServiceDemo-edxemtwbxcexlpftvzzeuaatpxec/SourcePackages/checkouts/SociallyMusicService/Sources/SociallyMusicService/Services/SpotifyService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "9187A1C7-1873-4053-B5F1-BA278F44D02D - cb31ccb3ebe4c204"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;SociallyMusicService.SociallyTrack, SociallyMusicService.APIServiceError&gt;) -&gt; () in closure #1 (Swift.Result&lt;SociallyMusicService.PagingObject&lt;SociallyMusicService.PlayHistoryObject&gt;, SociallyMusicService.APIServiceError&gt;) -&gt; () in SociallyMusicService.SpotifyService.fetchRecentlyPlayed(completion: (Swift.Result&lt;Swift.Array&lt;SociallyMusicService.SociallyTrack&gt;, SociallyMusicService.APIServiceError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SociallyMusicServiceDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zachmcguckin/Library/Developer/Xcode/DerivedData/SociallyMusicServiceDemo-edxemtwbxcexlpftvzzeuaatpxec/SourcePackages/checkouts/SociallyMusicService/Sources/SociallyMusicService/Services/SpotifyService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "526">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5451BE1F-5AC3-4740-861F-724C9EB686ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/SociallyMusicServiceDemo-edxemtwbxcexlpftvzzeuaatpxec/SourcePackages/checkouts/SociallyMusicService/Sources/SociallyMusicService/Services/SpotifyService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "fetchRecentlyPlayed(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "979878B2-63D8-4146-B8B9-CD4F1560511B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/SociallyMusicServiceDemo-edxemtwbxcexlpftvzzeuaatpxec/SourcePackages/checkouts/SociallyMusicService/Sources/SociallyMusicService/Services/SpotifyService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "fetchRecentlyPlayed(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ImageWithActivityIndicator",
+        "repositoryURL": "https://github.com/AliAdam/ImageWithActivityIndicator.git",
+        "state": {
+          "branch": "master",
+          "revision": "f2e5af75baa6f1e10170f27ca8cf2d0e7b8f3917",
+          "version": null
+        }
+      },
+      {
+        "package": "SociallyMusicService",
+        "repositoryURL": "https://github.com/OnEdgeInnovation/SociallyMusicService.git",
+        "state": {
+          "branch": "master",
+          "revision": "5ef489ed03a483b415b2a62321ffbe181f619d99",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

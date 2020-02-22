@@ -24,7 +24,8 @@ struct TopArtistView: View {
     }
     
     func loadData() {
-        let service = SpotifyService(token: Constants.spotifyToken)
+        let service = SpotifyService()
+        service.setToken(accessToken: Constants.spotifyToken)
         service.fetchTopArtists { (result) in
             switch(result) {
             case .success(let artists):
@@ -53,7 +54,7 @@ struct TopArtistCellView: View {
             ViewWithActivityIndicator(placeHolder: "", showActivityIndicator: true, viewLoader: loader) {
                 Image(uiImage: UIImage(data:self.loader.getData()) ?? UIImage()).resizable()
             }.frame(width: 50, height: 50)
-            VStack {
+            VStack(alignment: .leading) {
                 Text(artist.name).font(.headline)
             }
         }

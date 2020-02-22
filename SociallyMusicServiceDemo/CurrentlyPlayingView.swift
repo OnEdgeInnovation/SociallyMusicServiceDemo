@@ -23,7 +23,8 @@ struct CurrentlyPlayingView: View {
     }
     
     func getCurrentTrack() {
-        let service = SpotifyService(token: Constants.spotifyToken)
+        let service = SpotifyService()
+        service.setToken(accessToken: Constants.spotifyToken)
         service.fetchCurrentTrack { (result) in
             switch(result) {
             case .success(let track):

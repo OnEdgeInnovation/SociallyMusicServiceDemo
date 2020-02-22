@@ -25,7 +25,8 @@ struct RecentlyPlayedView: View {
     }
     
     func loadData() {
-        let service = SpotifyService(token: Constants.spotifyToken)
+        let service = SpotifyService()
+        service.setToken(accessToken: Constants.spotifyToken)
         service.fetchRecentlyPlayed { (result) in
             switch(result) {
             case .success(let tracks):
@@ -54,7 +55,7 @@ struct RecentlyPlayedCellView: View {
             ViewWithActivityIndicator(placeHolder: "", showActivityIndicator: true, viewLoader: loader) {
                 Image(uiImage: UIImage(data:self.loader.getData()) ?? UIImage()).resizable()
             }.frame(width: 50, height: 50)
-            VStack {
+            VStack(alignment: .leading) {
                 Text(track.name).font(.headline)
                 Text(track.artist).font(.subheadline)
             }
